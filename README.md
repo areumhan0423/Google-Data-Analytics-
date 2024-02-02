@@ -56,6 +56,8 @@ Then, another table of yearly compilation was created for analysis which contain
 
 
 **-Data Exploration**   
+SQL : [Query](https://github.com/areumhan0423/Google-Data-Analytics-/blob/main/Data%20Exploration)   
+
 1. The columns of table and the data types are as listed below. 
 <img width="238" alt="Picture 1" src="https://github.com/areumhan0423/Google-Data-Analytics-/assets/158506119/997d5cca-0d4b-4144-9cd4-89f3fdddf53c">   
 
