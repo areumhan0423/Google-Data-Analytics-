@@ -49,14 +49,14 @@ The files have been compiled in the form of yyyymm-divvy-tripdata. The files con
 Data Cleaning and Manipulation Process: The data will be processed by using BigQuery due to the size of the data needs to be handled.
 
 **-Combining the Data**   
-SQL : [Query](https://github.com/areumhan0423/Google-Data-Analytics-/blob/main/1%20%20Data%20Combining)   
+SQL : [Query](https://github.com/areumhan0423/Google-Data-Analytics-/blob/main/1%20%20Data%20Combining.sql)   
 
 12 files (of each month) are uploaded as tables in the dataset ‘Cyclistic’. 
 Then, another table of yearly compilation was created for analysis which contains 5,719,877 rows.   
 
 
 **-Data Exploration**   
-SQL : [Query](https://github.com/areumhan0423/Google-Data-Analytics-/blob/main/2%20%20Data%20Exploration)   
+SQL : [Query](https://github.com/areumhan0423/Google-Data-Analytics-/blob/main/2%20%20Data%20Exploration.sql)   
 
 1. The columns of table and the data types are as listed below. 
 <img width="238" alt="Picture 1" src="https://github.com/areumhan0423/Google-Data-Analytics-/assets/158506119/997d5cca-0d4b-4144-9cd4-89f3fdddf53c">   
@@ -109,7 +109,7 @@ SQL Query : [Query](https://github.com/areumhan0423/Google-Data-Analytics-/blob/
 The fundamental business question we are going to answer by this analysis is   
 **“what is the difference between the styles of using Cyclistic’s service between two types of users?”**   
 
-SQL : [Query](https://github.com/areumhan0423/Google-Data-Analytics-/blob/main/4%20%20Data%20Visualisation)   
+SQL : [Query](https://github.com/areumhan0423/Google-Data-Analytics-/blob/main/4%20%20Data%20Visualisation.sql)   
 Visualisation : [Tableau](https://public.tableau.com/app/profile/areum.han2957/viz/Cyclistic_17069105103280/stationsfrequency#1)
 
 This can be broken down into four aspects. 
