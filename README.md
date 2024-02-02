@@ -25,8 +25,9 @@ The current problem Cyclistic encountered is insufficient number of annual subsc
 
  <br>
 
-## ASKhttps://github.com/areumhan0423/Google-Data-Analytics-/blob/main/README.md
-**Business question**
+## ASK 
+**Business question**   
+
 The question given is figuring out the difference in the use of service between annual and casual users. 
 
 It will be answered by comparing the data of their usage durations, regularities, station information, bike information etc. The insight from analysis will be used to decide effective market strategy to increase the conversion rate of casual users. 
@@ -47,16 +48,19 @@ The files have been compiled in the form of yyyymm-divvy-tripdata. The files con
 ## PROCESS
 Data Cleaning and Manipulation Process: The data will be processed by using BigQuery due to the size of the data needs to be handled.
 
-**-Combining the Data**
-12 files (of each month) are uploaded as tables in the dataset ‘Cyclistic’. Then, another table of yearly compilation was created for analysis. 
+**-Combining the Data**   
+SQL : [Query](https://github.com/areumhan0423/Google-Data-Analytics-/blob/main/Data%20Combining)   
+
+12 files (of each month) are uploaded as tables in the dataset ‘Cyclistic’. 
+Then, another table of yearly compilation was created for analysis which contains 5,719,877 rows.   
 
 
-**-Data Exploration**
+**-Data Exploration**   
 1. The columns of table and the data types are as listed below. 
-<img width="238" alt="Picture 1" src="https://github.com/areumhan0423/Google-Data-Analytics-/assets/158506119/997d5cca-0d4b-4144-9cd4-89f3fdddf53c">
+<img width="238" alt="Picture 1" src="https://github.com/areumhan0423/Google-Data-Analytics-/assets/158506119/997d5cca-0d4b-4144-9cd4-89f3fdddf53c">   
 
-2. The nulls values of each column are shown below.
-<img width="762" alt="Picture 2" src="https://github.com/areumhan0423/Google-Data-Analytics-/assets/158506119/fc3461df-fefd-4b3b-965b-8d530ef525fc">
+2. The nulls values of each column are shown below.   
+<img width="762" alt="Picture 2" src="https://github.com/areumhan0423/Google-Data-Analytics-/assets/158506119/fc3461df-fefd-4b3b-965b-8d530ef525fc">   
  
 3. Checking duplicate values in the table
 <img width="156" alt="Picture 3" src="https://github.com/areumhan0423/Google-Data-Analytics-/assets/158506119/2f7a95ae-3525-4f0f-940e-33ac8e43e4d6">
@@ -87,7 +91,9 @@ The total number of memberships is 5719877 which confirms that every ride has be
 
 <br>
 
-**-Data Cleaning**
+**-Data Cleaning**   
+SQL Query : [Query](https://github.com/areumhan0423/Google-Data-Analytics-/blob/main/Data%20Cleaning.sql)    
+
 1. rows with null values are removed. 
 2. ride_length, day_of_week, month columns are added to the table.
 3. ride with lengths less than 1 minute and more than a day are removed.
@@ -98,9 +104,13 @@ The total number of memberships is 5719877 which confirms that every ride has be
 <br>
 
 ## ANALYSE and SHARE
-The fundamental business question we are going to answer by this analysis is **“what is the difference between the styles of using Cyclistic’s service between two types of users?”**
+The fundamental business question we are going to answer by this analysis is   
+**“what is the difference between the styles of using Cyclistic’s service between two types of users?”**   
 
-This can be broken down into three aspects. 
+SQL : [Query](https://github.com/areumhan0423/Google-Data-Analytics-/blob/main/Data%20Cleaning.sql)   
+Visualisation : [Tableau](https://public.tableau.com/app/profile/areum.han2957/viz/Cyclistic_17069105103280/stationsfrequency#1)
+
+This can be broken down into four aspects. 
 
 **1. Bike types** 
 ![Picture 11](https://github.com/areumhan0423/Google-Data-Analytics-/assets/158506119/1fc1043c-e24a-4e7b-bc28-f2e0dd5bd37f)
