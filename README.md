@@ -48,7 +48,7 @@ The files have been compiled in the form of yyyymm-divvy-tripdata. The files con
 ## PROCESS
 Data Cleaning and Manipulation Process: The data will be processed by using BigQuery due to the size of the data needs to be handled.
 
-**-Combining the Data**   
+**-Data Compilation**   
 SQL : [Query](https://github.com/areumhan0423/Google-Data-Analytics-/blob/main/1%20%20Data%20Combining.sql)   
 
 12 files (of each month) are uploaded as tables in the dataset ‘Cyclistic’. 
