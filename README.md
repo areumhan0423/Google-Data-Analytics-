@@ -37,10 +37,10 @@ The key stakeholders to be considered are consisted of executive members of the 
  <br>
 
 ## PREPARE
-- Data Sources
+- Data Sources   
 Cyclistic’s historical trip data will be used to analyse and identify trends from January 2023 to December 2023 which was downloaded from [divvy_tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html). The data has been made available by Motivate International Inc. under [this license](https://divvybikes.com/data-license-agreement).
 
-- Data Organisation
+- Data Organisation   
 The files have been compiled in the form of yyyymm-divvy-tripdata. The files contain the information regarding trips made during that month encompassing the ride id, bike type, start and end time, each station name and ids, latitudinal and longitudinal information of commencing and terminating location with their membership status. The columns are named as ride_id, rideable_type, started_at, ended_at, start_station_name, start_station_id, end_station_name, end_station_id, start_lat, start_lng, end_lat float, end_lng, member_casual.
 
  <br>
