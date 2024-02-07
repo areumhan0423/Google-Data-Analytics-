@@ -73,7 +73,7 @@ SQL : [Query](https://github.com/areumhan0423/Google-Data-Analytics-/blob/main/2
 5. Check the different types of bikes and their numbers. 
 <img width="211" alt="Picture 5" src="https://github.com/areumhan0423/Google-Data-Analytics-/assets/158506119/3fe0dcef-2913-4fe6-94d0-acffac085530"> 
 
-The total number of bikes is 5719877 which confirms that all the ride id have their own bike type information.
+The total number of bikes is 5,719,877 which confirms that all the ride id have their own bike type information.
 
 6. Checking how many rows do not have entries for each start station name or start station id or both. 
 <img width="266" alt="Picture 6" src="https://github.com/areumhan0423/Google-Data-Analytics-/assets/158506119/afe90686-6d85-4be3-8173-53f12add790b"> 
@@ -89,7 +89,7 @@ The total number of bikes is 5719877 which confirms that all the ride id have th
 
 <img width="216" alt="Picture 9" src="https://github.com/areumhan0423/Google-Data-Analytics-/assets/158506119/d6e6d3aa-6b63-4e1c-8ec6-6358f245d6dc"> 
 
-The total number of memberships is 5719877 which confirms that every ride has been assigned into its types of memberships.
+The total number of memberships is 5,719,877 which confirms that every ride has been assigned into its types of memberships.
 
 <br>
 
@@ -99,7 +99,7 @@ SQL Query : [Query](https://github.com/areumhan0423/Google-Data-Analytics-/blob/
 1. rows with null values are removed. 
 2. ride_length, day_of_week, month columns are added to the table.
 3. ride with lengths less than 1 minute and more than a day are removed.
-4. The final table has 4243326 rows in total, eliminating 1476551 rows as a result.
+4. The final table has 4,243,326 rows in total, eliminating 1476551 rows as a result.
 <img width="156" alt="Picture 10" src="https://github.com/areumhan0423/Google-Data-Analytics-/assets/158506119/7725fe57-de86-4d1e-90f7-7db4cd243686">
 
 <br>
@@ -142,9 +142,9 @@ When it comes to hourly overlook, casual users increased continuously until the 
 
 <img width="528" alt="Picture 14" src="https://github.com/areumhan0423/Google-Data-Analytics-/assets/158506119/afe46359-1297-45a4-861f-c44f0ed1727b">   
 
-Overall, in contrast to the frequency graphs above, membership users took almost half of the trip duration than casual users. In every time frame, membership users remained relatively steady keeping their journey around 11-12minutes. Whereas casual users’ rides varied from a minimum of 15 minutes to a maximum of 29 minutes.    
+Overall, in contrast to the frequency graphs above, membership users took almost half of the trip duration than casual users. In every time frame, membership users remained relatively steady keeping their journey around 11-12 minutes. Whereas casual users’ rides varied from a minimum of 15 minutes to a maximum of 29 minutes.    
 
-Casual users' ride duration fluctuated since spring and decreased slightly from October to the end of 2023. The bigger variation was similarly observed on the day of the week average. When members were using bikes slightly more from Friday to Sunday, casual riders had their lowest point on Wednesday and went up until the weekend and made their way down from Monday. Both of users have shown their lowest duration in the early hours; 4 -6am was the quietest hour. Then casual users’ records went up steeply from the morning onward to the noon and gradually decreased to the afternoon hour and remained still.   
+Casual users' ride duration fluctuated since spring and decreased slightly from October to the end of 2023. The bigger variation was similarly observed on the day of the week average. When members were using bikes slightly more from Friday to Sunday, casual riders had their lowest point on Wednesday and went up until the weekend and made their way down from Monday. Both of users have shown their lowest duration in the early hours; 4 -6 am was the quietest hour. Then casual users’ records went up steeply from the morning onward to the noon and gradually decreased to the afternoon hour and remained still.   
 
 This can support the previous findings about the users that members would use the service more likely for their commute purposes considering this, and casual users made their journey outside of rush hour to travel for more assorted and personal purposes.   
 
@@ -162,7 +162,7 @@ Both start and end station frequency displays that casual users are more likely 
 **Summary**
 
 - Membership users would be more likely to use Cyclist for regular and commuting purposes with around 10 minutes per ride consistently.
-- Membership users prefer to hire bikes at 8am and 5pm during weekdays, during the warmer weather (April to October).
+- Membership users prefer to hire bikes at 8 am and 5 pm during weekdays, during the warmer weather (April to October).
 - Casual riders are more likely to take their trip for occasional and leisurely purposes for longer rides over the weekends.
 - Casual riders prefer to hire bikes in the same weather, but during the daylight hours of the weekend.
 
